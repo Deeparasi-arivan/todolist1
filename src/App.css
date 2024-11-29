@@ -1,0 +1,34 @@
+.todo-card{
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    .status-dropdown{
+        position: relative;
+    }
+}
+.status-dropdown .dropdown-menu{
+    position: absolute;
+    background-color: white;
+    border: 1px solid  #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+button{
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+textarea{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+
+}
+input[type="text"]{
+    width: 100%;
+    margin-top: 5px;
+    padding-right: 500px;
+}
